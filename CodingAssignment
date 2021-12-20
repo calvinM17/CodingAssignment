@@ -108,6 +108,43 @@ function greaterHundred(arr) {
 
 // Write a function that takes an array of numbers and returns the average of all the elements in the array.
 
+function numberAvg{arr) {
+   sum = 0;
+   for ( i = 0; i < arr.length; i++)
+   {
+      sum = sum + arr[i];
+    }
+    return(sum / arr.length);
+  }
+  
+// Write a function that takes two arrays of numbers and returns true if the average of the elements in the first array is greater than the average of the elements in the second array.
+
+
+function greaterThan(arr1, arr2) {
+   if(average(arr1) > average(arr2) {
+      return true;   }
+   else {   return false;
+   }
+}
+
+// Write a function called willBuyDrink that takes a boolean isHotOutside, and a number moneyInPocket, and returns true if it is // hot outside and if moneyInPocket is greater than 10.50.
+
+function willBuyDrink(isHotOutside, moneyInPocket) {
+   if(isHotOutside === "true && moneyInPocket > 10.50) {
+      return true;   }
+      else   {   return false;
+             }
+}
+
+// Create a function of your own that solves a problem. In comments, write what the function does and why you created it.
+// Write a function that says "Hi, my name is ______" with a your name in the underscore.
+
+let name = 'Calvin':
+function welcome() {
+   let greeting = 'Hi, my name is ' + name;
+   console.log(greeting);
+}
+welcome(); // Hi, my name is Calvin
 
 
    
